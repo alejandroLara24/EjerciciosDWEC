@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Pagina para refrescar coonocimientos de html">
+        <meta name="author" content="Alejandro Lara Moncho">
+        <title>Portada</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Formulario
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Portada.html"> Portada </a></li>
+                <li><a href="#"> Formulario de contacto </a></li>
+                <li><a href="Informacion.html"> Información </a></li>
+            </ul>
+        </nav>
+        <form method="GET">
+            Nombre:
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            
+            Apellido:
+            <br>
+            <input type="text" name="apellido">
+            <br>
+
+            Email: <br>
+            <input type="email" name="email">
+            <br>
+
+            Sexo: <br>
+            <input type="radio" name="sexo" value="hombre">Hombre <br>
+            <input type="radio" name="sexo" value="mujer">Mujer <br>
+
+            Codigo postal: <br>
+            <input type="number">
+            <br>
+
+            Ciclo: <br>
+            <input type="radio" name="ciclo" value="daw">DAW <br>
+            <input type="radio" name="ciclo" value="dam">DAM <br>
+            <input type="radio" name="ciclo" value="asix">ASIX <br>
+            
+            Frameworks: <br>
+            <input type="checkbox" name="framework" value="angular">Angular <br>
+            <input type="checkbox" name="framework" value="vue">Vue <br>
+            <input type="checkbox" name="framework" value="simfony">Simfony <br>
+            
+            Acuerdos de politica y privacidad: <br>
+            <input type="checkbox" name="acuerdos" required>
+            <label>Acepto los acuerdos de politica y privacidad</label>
+            <br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
